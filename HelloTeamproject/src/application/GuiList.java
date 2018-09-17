@@ -7,13 +7,13 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.ListSelectionModel;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
+
 
 public class GuiList extends JPanel {
 	private static final long serialVersionUID = 1L;
 
 	private String label[] = { "Thomas", "Alex", "Rahel" };
+
 
 	private JList<String> list;
 
